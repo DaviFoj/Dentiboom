@@ -1,0 +1,17 @@
+{
+  "name": "dentiboom",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Projeto de extensão em saúde bucal com experiências web e mobile.",
+  "engines": {
+    "node": ">=18.19.1",
+    "pnpm": ">=9"
+  },
+  "scripts": {
+    "docs:check": "prettier --check README.md AGENTS.md CLAUDE.md CONTRIBUTING.md \"docs/**/*.md\"",
+    "docs:format": "prettier --write README.md AGENTS.md CLAUDE.md CONTRIBUTING.md \"docs/**/*.md\""
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
