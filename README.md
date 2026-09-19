@@ -1,5 +1,7 @@
 # Dentiboom
 
+[![Documentation](https://github.com/DaviFoj/Dentiboom/actions/workflows/docs.yml/badge.svg)](https://github.com/DaviFoj/Dentiboom/actions/workflows/docs.yml)
+
 Projeto de extensão em saúde bucal, com experiência web e mobile para distribuir conteúdo educativo de forma simples, acessível e preparada para crescer.
 
 > Status: fundação do repositório — setembro de 2026.
