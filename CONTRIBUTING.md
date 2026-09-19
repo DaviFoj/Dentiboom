@@ -25,4 +25,4 @@
 
 Descreva o problema, a solução, os riscos e como a mudança foi validada. Para alterações de produto, inclua o impacto no MVP e a documentação correspondente.
 
-O workflow de documentação é executado automaticamente em pull requests e em atualizações da `main`. A proteção nativa da branch ainda depende do plano do GitHub: como este repositório é privado, o GitHub Free não permite ativar branch protection ou rulesets. Até essa limitação mudar, trate a abertura de pull requests e a aprovação dos checks como regra obrigatória do time.
+O workflow de documentação é executado automaticamente em pull requests e em atualizações da `main`. O repositório é público, mas apenas colaboradores têm permissão de escrita. O Ruleset `Protect main` exige pull request, branch atualizada e o check `format`, além de bloquear force push e exclusão da branch padrão.
