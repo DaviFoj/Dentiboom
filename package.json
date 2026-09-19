@@ -8,8 +8,8 @@
     "pnpm": ">=9"
   },
   "scripts": {
-    "docs:check": "prettier --check README.md AGENTS.md CLAUDE.md CONTRIBUTING.md \"docs/**/*.md\"",
-    "docs:format": "prettier --write README.md AGENTS.md CLAUDE.md CONTRIBUTING.md \"docs/**/*.md\""
+    "docs:check": "prettier --check README.md AGENTS.md CLAUDE.md CONTRIBUTING.md \".github/**/*.md\" \"docs/**/*.md\"",
+    "docs:format": "prettier --write README.md AGENTS.md CLAUDE.md CONTRIBUTING.md \".github/**/*.md\" \"docs/**/*.md\""
   },
   "devDependencies": {
     "prettier": "^3.6.2"

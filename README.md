@@ -65,6 +65,11 @@ pnpm docs:format
 
 ```text
 .
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   ├── CODEOWNERS
+│   ├── PULL_REQUEST_TEMPLATE.md
+│   └── dependabot.yml
 ├── docs/
 │   ├── arquitetura.md
 │   ├── plano-mvp.md
