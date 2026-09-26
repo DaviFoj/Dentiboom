@@ -12,6 +12,6 @@
     "docs:format": "prettier --write README.md AGENTS.md CLAUDE.md CONTRIBUTING.md \".github/**/*.md\" \"docs/**/*.md\""
   },
   "devDependencies": {
-    "prettier": "^3.6.2"
+    "prettier": "^3.9.9"
   }
 }
